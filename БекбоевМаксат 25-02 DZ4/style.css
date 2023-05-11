@@ -1,0 +1,58 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .heading {
+    color: #030368;
+    font-size: 60px;
+    margin: 0 7px;
+    font-family: system-ui;
+    font-weight: 700;
+  }
+  
+  .number {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #808080;
+  }
+  
+  .number.positive {
+    color: #008000;
+  }
+  
+  .number.negative {
+    color: #ff0000;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  button {
+    font-size: 15px;
+    padding: 7px 15px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: system-ui;
+    letter-spacing: 3px;
+  }
+  
+  button:hover {
+    background-color: #aaa9a9;
+  }
+  
+  button:active {
+    background-color: #a9a9a9;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
